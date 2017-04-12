@@ -109,11 +109,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ButtonCustom.cs" />
+    <Compile Include="EntryCustom.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\fonts\AmpleSoftLight.otf" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
