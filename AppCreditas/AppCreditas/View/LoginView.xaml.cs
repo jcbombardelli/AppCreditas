@@ -39,5 +39,10 @@ namespace AppCreditas.View
             else
                 await DisplayAlert(StringTable.App_Creditas, StringTable.Message_WrongLogin, StringTable.Label_OK);
         }
+
+        private void SimulatorButton_Clicked(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new NavigationPage(new SimulatorPage());
+        }
     }
 }

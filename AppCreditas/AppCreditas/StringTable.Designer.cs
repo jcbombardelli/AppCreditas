@@ -141,5 +141,59 @@ namespace AppCreditas {
                 return ResourceManager.GetString("TextLabel_Page_LoginView_Password", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Go To Simulate.
+        /// </summary>
+        internal static string TextLabel_Page_LoginView_Simulate_Here {
+            get {
+                return ResourceManager.GetString("TextLabel_Page_LoginView_Simulate_Here", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Username.
+        /// </summary>
+        internal static string TextLabel_Page_LoginView_User {
+            get {
+                return ResourceManager.GetString("TextLabel_Page_LoginView_User", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Car.
+        /// </summary>
+        internal static string TextLabel_Page_Simulator_Car {
+            get {
+                return ResourceManager.GetString("TextLabel_Page_Simulator_Car", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a House.
+        /// </summary>
+        internal static string TextLabel_Page_Simulator_House {
+            get {
+                return ResourceManager.GetString("TextLabel_Page_Simulator_House", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a How much do you need?.
+        /// </summary>
+        internal static string TextLabel_Page_Simulator_How_Much {
+            get {
+                return ResourceManager.GetString("TextLabel_Page_Simulator_How_Much", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a What type of loan do you need?.
+        /// </summary>
+        internal static string TextLabel_Page_Simulator_What_Loan {
+            get {
+                return ResourceManager.GetString("TextLabel_Page_Simulator_What_Loan", resourceCulture);
+            }
+        }
     }
 }

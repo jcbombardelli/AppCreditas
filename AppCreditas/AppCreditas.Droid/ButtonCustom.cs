@@ -17,8 +17,6 @@ namespace AppCreditas.Droid
 
             if (Control != null)
             {
-                //Control.SetBackgroundColor(global::Android.Graphics.Color.LightGreen);
-                //TextView textview = (TextView)Control.Text;
                 Typeface font = Typeface.CreateFromAsset(Context.Assets, "fonts/AmpleSoftLight.otf");
                 Control.SetTypeface(font, TypefaceStyle.Normal);
 

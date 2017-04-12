@@ -12,7 +12,7 @@
         <ScrollView>
             <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="15">
                 <Image Source="icon.png" WidthRequest="125" HeightRequest="125"/>
-                <Entry Text="{Binding User}" Keyboard="Text" TextColor="#013F3C"  Placeholder="{x:Static inter:StringTable.TextLabel_Page_LoginView_Login}"/>
+                <Entry Text="{Binding User}" Keyboard="Text" TextColor="#013F3C"  Placeholder="{x:Static inter:StringTable.TextLabel_Page_LoginView_User}"/>
                 <Entry Text="{Binding Pass}" IsPassword="True" TextColor="#013F3C"  Placeholder="{x:Static inter:StringTable.TextLabel_Page_LoginView_Password}" />
 
                 <Grid HorizontalOptions="Center"  Padding="10">
@@ -26,7 +26,11 @@
                     </Grid.ColumnDefinitions>
                 </Grid>
 
-                <Button Text="Login" Clicked="LoginButton_Clicked" BackgroundColor="Accent" TextColor="#013F3C"/>
+                <Button Text="{x:Static inter:StringTable.TextLabel_Page_LoginView_Login}" 
+                        Clicked="LoginButton_Clicked" BackgroundColor="Accent" TextColor="#013F3C"/>
+
+                <Button Text="{x:Static inter:StringTable.TextLabel_Page_LoginView_Simulate_Here}"
+                        Clicked="SimulatorButton_Clicked" BackgroundColor="Accent" TextColor="#013F3C"/>
             </StackLayout>
         </ScrollView>
 

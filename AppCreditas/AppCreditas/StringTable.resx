@@ -144,4 +144,22 @@
   <data name="TextLabel_Page_LoginView_Password" xml:space="preserve">
     <value>Password</value>
   </data>
+  <data name="TextLabel_Page_LoginView_Simulate_Here" xml:space="preserve">
+    <value>Go To Simulate</value>
+  </data>
+  <data name="TextLabel_Page_LoginView_User" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="TextLabel_Page_Simulator_Car" xml:space="preserve">
+    <value>Car</value>
+  </data>
+  <data name="TextLabel_Page_Simulator_House" xml:space="preserve">
+    <value>House</value>
+  </data>
+  <data name="TextLabel_Page_Simulator_How_Much" xml:space="preserve">
+    <value>How much do you need?</value>
+  </data>
+  <data name="TextLabel_Page_Simulator_What_Loan" xml:space="preserve">
+    <value>What type of loan do you need?</value>
+  </data>
 </root>

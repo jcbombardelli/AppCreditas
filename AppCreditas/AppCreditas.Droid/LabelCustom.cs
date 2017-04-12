@@ -1,17 +1,14 @@
 using Xamarin.Forms;
-using Xamarin.Forms.Platform.Android;
 using AppCreditas.Droid;
+using Xamarin.Forms.Platform.Android;
 using Android.Graphics;
 
-[assembly: ExportRenderer(typeof(Entry), typeof(EntryCustom))]
+[assembly: ExportRenderer(typeof(Label), typeof(LabelCustom))]
 namespace AppCreditas.Droid
 {
-    public class EntryCustom : EntryRenderer
+    public class LabelCustom : LabelRenderer
     {
-
-
-
-        protected override void OnElementChanged(ElementChangedEventArgs<Entry> e)
+        protected override void OnElementChanged(ElementChangedEventArgs<Label> e)
         {
             base.OnElementChanged(e);
 

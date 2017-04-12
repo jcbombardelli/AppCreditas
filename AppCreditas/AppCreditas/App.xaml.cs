@@ -31,7 +31,6 @@ namespace AppCreditas
         public App()
         {
             InitializeComponent();
-
             MainPage = new AppCreditas.View.LoginView();
         }
 
